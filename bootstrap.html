@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> My First Bootstrap Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Fontawesom.io -->
+    <script src="https://use.fontawesome.com/28abdf2317.js"></script>
+
+    <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip1"]').tooltip(); 
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
+            </script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is some text.</p>
+        </div>
+    </div>
+    <!--       
+        <div class="row">
+                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6"> text col1 </br> This should appears first.</div>
+                <p> This appears first</p>
+                <div class="col-md-6 col=sm-6 col=lg-6 col-xs-6"> text col2 </div>
+                <p> What about others</p>
+              </div>
+              <div class="row">
+                <div class="col-md-4"> text 3</div>
+                <div class="col-md-4"> text 5</div>
+                <div class="col-md-4"> test 6</div>
+        </div>
+-->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Search" class="form-control">
+                    </div>
+                    <booton type="submit" class="btn btn-default">Search</booton>
+
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div style="padding: 10px 10px, 10px 10px; float: left; width: 80%;">
+
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6" text-center>
+                <h1>
+                    About Myself
+                </h1>
+                <hr>
+                <p>
+                    Engineer by training. Going into Business. The business is getting very ineresting with advant of the new techologies.
+                </p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+        <hr>
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Rules are directly applied to
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn fault" role="botton">View Details &raquo;</a>
+                    </p>
+
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Rules are directly applied to
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn fault" role="botton">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Rules are directly applied to 
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn fault" role="botton">View Details &raquo;</a>
+                    </p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-4 panel panel-default">
+                <h3 class="text-center">Operating Hours</h3>
+                <table class="table table-striped">
+
+                
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Monday to Thursday
+                            </td>
+                            <td>
+                                1800 -1700 hrs
+                            </td>
+
+                        </tr>
+                        <tr>
+                             <td>
+                                Friday to Saturday
+                            </td>
+                            <td>
+                                1100 -1500 hrs
+                            </td>
+    
+                        </tr>
+                        <tr>
+                            <td>
+                                Sunday
+                             </td>
+                            <td>
+                                Closed
+                            </td>
+    
+                        </tr>
+
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+        
+            <div class="col-xs-12 col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+                </div>
+
+                
+            <div class="col-xs-12 col-md-4">
+                <div>
+                <h3>
+                    Check Me Out
+                </h3>
+                    <a href="#" class="list-group-item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>darryl@comworks</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>darryl@comworks</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>darryl@comworks</a>
+                </div>
+
+
+
+            </div>
+
+            <hr>
+            
+            
+        <div class="row">
+            <div class="list-inline">
+
+                <ul>
+                    <li>
+                        <a href="https://wwww.facebook.com" data-toggle="tooltip" title="Hooray Facebook!">
+
+                            <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+                    li>
+                        <a href="https://wwww.google.com" data-toggle="tooltip" title="Hooray Google!" >
+
+                            <i class="fa fa-google fa-3x" aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+                    li>
+                        <a href="https://wwww.snapchat.com">
+
+                            <i class="fa fa-snapchat fa-3x" aria-hidden="true"></i>
+
+                        </a>
+                    </li>
+
+
+
+
+
+
+
+                </ul>
+            </div>
+
+
+
+
+        </div>
+
+
+</body>
+
+</html>
