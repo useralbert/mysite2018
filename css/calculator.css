@@ -1,0 +1,173 @@
+body {
+
+    background: #777777;
+
+}
+
+.background {
+
+    width: 300px;
+    height: 400px;
+    background: gray;
+    margin: 50px auto;
+
+}
+
+button {
+    border: 0;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#result {
+    display: block;
+    font-family: sans-serif;
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: #3bbbbb;
+    text-align: right;
+    color: #ffffff;
+    border: 0;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position: relative;
+    padding-top: 15px;
+    top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#result:hover {
+
+    cursor: text;
+}
+
+#first-rows {
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+    /*background-color: yellow;*/
+
+
+}
+
+.rows {
+    width: 300px;
+    margin-top: 10px;
+    /*background-color: yellow; */
+
+}
+
+#delete {
+
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 25Px;
+}
+
+.btn-style {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+
+}
+.first-child {
+    margin-left: 25px;
+}
+
+.num-bg {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #444;
+
+}
+
+.num-bg:active {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px cyan;
+    
+
+}
+
+.opera-bg {
+    background-color: #444444;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #444;
+
+}
+
+.opera-bg:active {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px cyan;
+    
+
+}
+
+.delete-bg {
+    background-color: #444444;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #444;
+
+}
+
+.delete-bg:active {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px cyan;
+    
+
+}
+
+.eqn-bg {
+    background-color: #444444;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #444;
+
+}
+
+.eqn-bg:active {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px cyan;
+    
+
+}
+
+/* align add and equal botton  to right */
+.align {
+    margin-left: 7px !important;
+
+}
+
+.fall-back {
+    margin-left: 13px !important;
+
+}

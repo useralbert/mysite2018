@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script lang="javascript" type="text/javascript">
+        function autoRefresh(t) {
+            setTimeout("location.reload(true);", t);   //t is in 1000th second unit
+        }
+
+        function redirectPage() {
+            window.location = "https://www.microsoft.com";
+        }
+        </script>
+    
+    </head>
+    <body onload="javascript:autoRefresh(5000);">  <!-- every 5 seconds refresh once -->
+        <script lang="javascript" type="text/javascript">
+            var employee = {
+                name : "James", 
+                email : "jamescook.com",
+                tel : "123453"
+
+            };
+            
+            var employeelist = [
+                {
+                name : "James", 
+                email : "jamescook.com",
+                tel : 123458
+
+                },
+                {   
+                name : "Jane", 
+                email : "jane.com",
+                tel : "123453"
+
+                }
+            ];
+
+            document.write("Size of employeelist: " + employeelist.length);
+            document.write("<br>");
+            document.write("<table border=2 width=80%>");
+                document.write("<thead>");
+                document.write("<tr>");
+                //document.write("<th>" + employeelist.obj[0] + "</th>" )
+                document.write("</tr>");
+                document.write("</thead>");
+            for(var i = 0; i < employeelist.length; i++) {
+                document.write("<thead>");
+                document.write("<tr>");
+                //document.write("<th>" + employeelist.index.name + "</th>" )
+                document.write("</tr>");
+                document.write("</thead>");
+            
+                document.write("<tr>");
+                document.write("<td>" + employeelist[i].name + "</td>");
+                document.write("<td>" + employeelist[i].email + "</td>");
+                document.write("<td>" + employeelist[i].tel + "</td>");
+                document.write("</tr>");
+            }
+            document.write("</table>");
+            
+     
+        </script>
+    </body>
+</html>
